@@ -1,0 +1,24 @@
+<suite name="practise">
+
+	<Listeners>
+		<Listener class-name="com.crm.qa.pract.Grouping"></Listener>
+	</Listeners>
+
+
+	<test name="test1">
+
+		<!-- <parameter name="ename" value="testuser_1" /> <parameter name="epassword" 
+			value="Test@123" /> -->
+
+
+		<classes>
+			<class name="com.crm.qa.pract.Grouping"></class>
+		</classes>
+
+
+	</test>
+
+
+
+
+</suite>

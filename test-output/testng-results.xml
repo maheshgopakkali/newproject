@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="86531" started-at="2018-07-20T02:31:29Z" finished-at="2018-07-20T02:32:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="86531" started-at="2018-07-20T02:31:29Z" finished-at="2018-07-20T02:32:56Z">
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@343f4d3d]" name="Setup" is-config="true" duration-ms="27690" started-at="2018-07-20T08:01:29Z" finished-at="2018-07-20T08:01:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="FAIL" signature="VerifyPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@343f4d3d]" name="VerifyPageTitleTest" duration-ms="3380" started-at="2018-07-20T08:01:57Z" finished-at="2018-07-20T08:02:01Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [#1 Free CRM for Any Business: Online Customer Relationship Software] but found [Free CRM software in the cloud powers sales and customer service]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [#1 Free CRM for Any Business: Online Customer Relationship Software] but found [Free CRM software in the cloud powers sales and customer service]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.crm.qa.testcases.LoginPageTest.VerifyPageTitleTest(LoginPageTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@343f4d3d]" name="tearDown" is-config="true" duration-ms="2433" started-at="2018-07-20T08:02:01Z" finished-at="2018-07-20T08:02:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@343f4d3d]" name="Setup" is-config="true" duration-ms="24061" started-at="2018-07-20T08:02:03Z" finished-at="2018-07-20T08:02:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="verifyImageLogoTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@343f4d3d]" name="verifyImageLogoTest" duration-ms="703" started-at="2018-07-20T08:02:27Z" finished-at="2018-07-20T08:02:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImageLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@343f4d3d]" name="tearDown" is-config="true" duration-ms="1770" started-at="2018-07-20T08:02:28Z" finished-at="2018-07-20T08:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@343f4d3d]" name="Setup" is-config="true" duration-ms="22008" started-at="2018-07-20T08:02:30Z" finished-at="2018-07-20T08:02:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="VerifyLoginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@343f4d3d]" name="VerifyLoginTest" duration-ms="2889" started-at="2018-07-20T08:02:52Z" finished-at="2018-07-20T08:02:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@343f4d3d]" name="tearDown" is-config="true" duration-ms="1532" started-at="2018-07-20T08:02:54Z" finished-at="2018-07-20T08:02:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

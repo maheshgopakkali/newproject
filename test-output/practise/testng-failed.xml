@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [practise]">
+  <test name="test1(failed)">
+    <parameter name="ename" value="testuser_1"/>
+    <parameter name="epassword" value="Test@123"/>
+    <classes>
+      <class name="com.crm.qa.pract.Grouping">
+        <methods>
+          <include name="Testngtesting"/>
+        </methods>
+      </class> <!-- com.crm.qa.pract.Grouping -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [practise] -->
